@@ -1,0 +1,10 @@
+- message structure:
+    vlin"0.5";vang"0.0";cams"1";    and so on for every variable that need to be sent
+
+- every variable must be 4 char long and the value must be inside double quote [""]
+
+- only the var that need to be updated can be sent
+
+- the order of the vars dosent metter
+
+- once the message is received it's published on a topic "lora", from that topic each node will take the information and act accordingly
